@@ -268,9 +268,9 @@ ul.navbar-nav li a:hover:after, ul.navbar-nav li a:focus:after { opacity: 1; }
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
 
-.block-3-box:hover .block-3-box-icon-yellow .block-3-box-icon-number { background: #e89a3e; }
-.block-3-box:hover .block-3-box-icon-red .block-3-box-icon-number { background: #e8643e; }
-.block-3-box:hover .block-3-box-icon-green .block-3-box-icon-number { background: #2ca464; }
+.block-3-box:hover .block-3-box-icon-yellow .block-3-box-icon-number { background: #2DB07C; }
+.block-3-box:hover .block-3-box-icon-red .block-3-box-icon-number { background: #2DB07C; }
+.block-3-box:hover .block-3-box-icon-green .block-3-box-icon-number { background: #2DB07C; }
 
 
 /***** Block 2 *****/
