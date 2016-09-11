@@ -248,9 +248,9 @@ ul.navbar-nav li a:hover:after, ul.navbar-nav li a:focus:after { opacity: 1; }
     line-height: 80px;
 }
 
-.block-3-box .block-3-box-icon-yellow { color: #e89a3e; }
-.block-3-box .block-3-box-icon-red { color: #e8643e; }
-.block-3-box .block-3-box-icon-green { color: #2ca464; }
+.block-3-box .block-3-box-icon-yellow { color: #2DB07C; }
+.block-3-box .block-3-box-icon-red { color: #2DB07C; }
+.block-3-box .block-3-box-icon-green { color: #2DB07C; }
 
 .block-3-box .block-3-box-icon i, .block-3-box .block-3-box-icon span { vertical-align: middle; }
 
