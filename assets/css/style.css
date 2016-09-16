@@ -12,7 +12,7 @@ body {
 strong { font-weight: 500; }
 
 a, a:hover, a:focus {
-	color: #2ca464;
+	color: #2DB07C;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -45,7 +45,7 @@ h4 {
 img { max-width: 100%; }
 
 ::-moz-selection { background: #2ca464; color: #fff; text-shadow: none; }
-::selection { background: #2ca464; color: #fff; text-shadow: none; }
+::selection { background: #2DB07C; color: #fff; text-shadow: none; }
 
 
 /***** Loader *****/
