@@ -1,7 +1,7 @@
 
 body {
 	background: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #888;
@@ -19,7 +19,7 @@ a, a:hover, a:focus {
 
 h1, h2 {
 	margin-top: 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Proxima Nova', sans-serif;
 	font-size: 38px;
     font-weight: 700;
     color: #444;
@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 h3 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Proxima Nova', sans-serif;
 	font-size: 22px;
     font-weight: 700;
     color: #444;
@@ -632,7 +632,7 @@ li.history-block-6 { margin-top: 60px; }
 
 .block-4-box .block-4-box-icon {
     font-size: 60px;
-    color: #e89a3e;
+    color: #B2ED94;
     line-height: 60px;
 }
 
