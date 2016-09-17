@@ -583,7 +583,7 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
-.history-blocks li.history-block-right:hover:after { background: #2ca464; }
+.history-blocks li.history-block-right:hover:after { background: #2DB07C; }
 
 li.history-block-1 { margin-top: 30px; }
 li.history-block-2 { margin-top: 60px; }
