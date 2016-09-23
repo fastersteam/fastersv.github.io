@@ -13,7 +13,7 @@ function scroll_to(clicked_link, nav_height) {
 
 
 jQuery(document).ready(function() {
-	
+
 	/*
 	    Navigation
 	*/
@@ -29,7 +29,7 @@ jQuery(document).ready(function() {
 					return -$(this).outerHeight() + $('nav').outerHeight();
 				}
 	});
-    
+
     /*
 	    Scroll to top
 	*/
@@ -40,20 +40,20 @@ jQuery(document).ready(function() {
 			$('html, body').stop().animate({scrollTop: scroll_to}, 1000);
 		}
 	});
-    
+
     /*
 	    Wow
 	*/
 	new WOW().init();
-	
+
 	/*
 	    Slider
 	*/
 	$('.slides').superslides({
-		play: 7000, 
+		play: 12000, 
 		animation: 'fade'
 	});
-    
+
     /*
         Fullscreen backgrounds
     */
@@ -64,18 +64,18 @@ jQuery(document).ready(function() {
 	$('.testimonials-container').backstretch("assets/img/backgrounds/1.jpg");
 	$('.contact-container').backstretch("assets/img/backgrounds/4.jpg");
 	$('.address-container').backstretch("assets/img/backgrounds/1.jpg");
-    
+
     $('a[data-toggle="tab"]').on('shown.bs.tab', function() {
     	$('.testimonials-container').backstretch("resize");
     });
-    
+
     $('.panel-collapse').on('hidden.bs.collapse', function() {
     	$('.we-love-design-container').backstretch("resize");
     });
     $('.panel-collapse').on('shown.bs.collapse', function() {
     	$('.we-love-design-container').backstretch("resize");
     });
-	
+
 	/*
 	    Contact form
 	*/
@@ -116,33 +116,33 @@ jQuery(document).ready(function() {
 	        }
 	    });
 	});
-    
+
 });
 
 
 
 jQuery(window).load(function() {
-	
+
 	/*
 		Loader
 	*/
 	$(".loader-img").fadeOut();
 	$(".loader").delay(1000).fadeOut("slow");
-	
+
 	/*
 		Hidden images
 	*/
 	$(".testimonial-image img, #slider-1 img, .portfolio-box img").attr("style", "width: auto !important; height: auto !important;");
-	
+
 	/*
 	    Portfolio
 	*/
 	$('.portfolio-masonry').masonry({
-		columnWidth: '.portfolio-box', 
+		columnWidth: '.portfolio-box',
 		itemSelector: '.portfolio-box',
 		transitionDuration: '0.5s'
 	});
-	
+
 	$('.portfolio-filters a').on('click', function(e){
 		e.preventDefault();
 		if(!$(this).hasClass('active')) {
@@ -163,9 +163,9 @@ jQuery(window).load(function() {
 	    	}
 		}
 	});
-	
+
 	$(window).on('resize', function(){ $('.portfolio-masonry').masonry(); });
-	
+
     /*
 	    Image popup
 	*/
@@ -188,7 +188,7 @@ jQuery(window).load(function() {
 			}
 		}
 	});
-	
+
 	$('.portfolio-box img').magnificPopup({
 		type: 'image',
 		gallery: {
@@ -208,5 +208,5 @@ jQuery(window).load(function() {
 			}
 		}
 	});
-	
+
 });
