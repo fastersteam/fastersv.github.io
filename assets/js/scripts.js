@@ -50,20 +50,20 @@ jQuery(document).ready(function() {
 	    Slider
 	*/
 	$('.slides').superslides({
-		play: 12000, 
+		play: 12000,
 		animation: 'fade'
 	});
 
     /*
         Fullscreen backgrounds
     */
-	$('.we-love-design-container').backstretch("assets/img/backgrounds/4.jpg");
+/*	$('.we-love-design-container').backstretch("assets/img/backgrounds/4.jpg");
 	$('.history-container').backstretch("assets/img/backgrounds/4.jpg");
 	$('.clients-container').backstretch("assets/img/backgrounds/3.jpg");
 	$('.how-we-do-it-container').backstretch("assets/img/backgrounds/4.jpg");
 	$('.testimonials-container').backstretch("assets/img/backgrounds/1.jpg");
 	$('.contact-container').backstretch("assets/img/backgrounds/4.jpg");
-	$('.address-container').backstretch("assets/img/backgrounds/1.jpg");
+	$('.address-container').backstretch("assets/img/backgrounds/1.jpg"); */
 
     $('a[data-toggle="tab"]').on('shown.bs.tab', function() {
     	$('.testimonials-container').backstretch("resize");
