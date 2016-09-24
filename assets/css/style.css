@@ -1,7 +1,7 @@
 
 body {
 	background: #fff;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #888;
@@ -19,7 +19,7 @@ a, a:hover, a:focus {
 
 h1, h2 {
 	margin-top: 10px;
-	font-family: 'Proxima Nova', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 38px;
     font-weight: 700;
     color: #444;
@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 h3 {
-	font-family: 'Proxima Nova', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 22px;
     font-weight: 700;
     color: #444;
@@ -83,10 +83,10 @@ img { max-width: 100%; }
 
 .section-container-gray { background: #f8f8f8; }
 
-.section-container-full-bg, 
-.section-container-full-bg h1, 
-.section-container-full-bg h2, 
-.section-container-full-bg h3, 
+.section-container-full-bg,
+.section-container-full-bg h1,
+.section-container-full-bg h2,
+.section-container-full-bg h3,
 .section-container-full-bg h4 { color: #fff; }
 
 .section-description {
@@ -199,7 +199,7 @@ ul.navbar-nav li a:hover:after, ul.navbar-nav li a:focus:after { opacity: 1; }
 
 .top-content-text {
 	width: 700px;
-	margin: 260px auto 0 auto;	
+	margin: 260px auto 0 auto;
 	color: #fff;
 }
 
@@ -721,7 +721,7 @@ li.history-block-6 { margin-top: 60px; }
 	padding: 25px 0;
 }
 
-.pricing-box-sign-up .big-link-1, 
+.pricing-box-sign-up .big-link-1,
 .pricing-box-sign-up .big-link-1:active:focus {
 	background: #2DB07C;
 }
@@ -779,7 +779,7 @@ li.history-block-6 { margin-top: 60px; }
 }
 
 .testimonial-list .testimonial-text p a { color: #fff; border-bottom: 1px dotted #fff; }
-.testimonial-list .testimonial-text p a:hover, 
+.testimonial-list .testimonial-text p a:hover,
 .testimonial-list .testimonial-text p a:focus { color: #fff; border: 0; }
 
 .testimonial-list .nav-tabs {
