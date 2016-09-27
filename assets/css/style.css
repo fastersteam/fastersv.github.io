@@ -160,6 +160,13 @@ img { max-width: 100%; }
 	padding-bottom: 5px;
 }
 
+.divider-2 span {
+	display: inline-block;
+	width: 500px;
+	height: 1px;
+	background: #ddd;
+}
+
 
 /***** Top menu *****/
 
@@ -819,6 +826,30 @@ li.history-block-6 { margin-top: 60px; }
 .testimonial-list .nav-tabs li.active a { background: #fff; }
 .testimonial-list .nav-tabs li.active a:focus { border: 1px solid #fff; }
 
+/***** Speakers *****/
+
+.speaker-img img {
+	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+.speaker-description {
+	width: 60%;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.speaker-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.meet-our-speakers-header {
+	margin-top: 100px;
+    padding-bottom: 10px;
+}
 
 /***** About us *****/
 
