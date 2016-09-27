@@ -851,6 +851,17 @@ li.history-block-6 { margin-top: 60px; }
     padding-bottom: 10px;
 }
 
+/***** Sponsors *****/
+.sponsors-group {
+	display: flex;
+	justify-content: center;
+}
+
+.sponsor-container {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
 /***** About us *****/
 
 .about-us-container {
