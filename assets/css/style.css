@@ -12,7 +12,7 @@ body {
 strong { font-weight: 500; }
 
 a, a:hover, a:focus {
-	color: #2DB07C;
+	color: #29B29E;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -45,7 +45,7 @@ h4 {
 img { max-width: 100%; }
 
 ::-moz-selection { background: #2ca464; color: #fff; text-shadow: none; }
-::selection { background: #2DB07C; color: #fff; text-shadow: none; }
+::selection { background: #29B29E; color: #fff; text-shadow: none; }
 
 /***** Agenda names/roles *****/
 
@@ -119,7 +119,7 @@ img { max-width: 100%; }
 	display: inline-block;
 	margin: 0 5px;
 	padding: 15px 20px;
-	background: #2DB07C;
+	background: #29B29E;
 	border: 0;
 	font-size: 16px;
     font-weight: 500;
@@ -259,9 +259,9 @@ ul.navbar-nav li a:hover:after, ul.navbar-nav li a:focus:after { opacity: 1; }
     line-height: 80px;
 }
 
-.block-3-box .block-3-box-icon-yellow { color: #2DB07C; }
-.block-3-box .block-3-box-icon-red { color: #2DB07C; }
-.block-3-box .block-3-box-icon-green { color: #2DB07C; }
+.block-3-box .block-3-box-icon-yellow { color: #29B29E; }
+.block-3-box .block-3-box-icon-red { color: #29B29E; }
+.block-3-box .block-3-box-icon-green { color: #29B29E; }
 
 .block-3-box .block-3-box-icon i, .block-3-box .block-3-box-icon span { vertical-align: middle; }
 
@@ -279,9 +279,9 @@ ul.navbar-nav li a:hover:after, ul.navbar-nav li a:focus:after { opacity: 1; }
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
 
-.block-3-box:hover .block-3-box-icon-yellow .block-3-box-icon-number { background: #2DB07C; }
-.block-3-box:hover .block-3-box-icon-red .block-3-box-icon-number { background: #2DB07C; }
-.block-3-box:hover .block-3-box-icon-green .block-3-box-icon-number { background: #2DB07C; }
+.block-3-box:hover .block-3-box-icon-yellow .block-3-box-icon-number { background: #29B29E; }
+.block-3-box:hover .block-3-box-icon-red .block-3-box-icon-number { background: #29B29E; }
+.block-3-box:hover .block-3-box-icon-green .block-3-box-icon-number { background: #29B29E; }
 
 
 /***** Block 2 *****/
@@ -594,7 +594,7 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
-.history-blocks li.history-block-right:hover:after { background: #2DB07C; }
+.history-blocks li.history-block-right:hover:after { background: #29B29E; }
 
 li.history-block-1 { margin-top: 30px; }
 li.history-block-2 { margin-top: 60px; }
@@ -734,7 +734,7 @@ li.history-block-6 { margin-top: 60px; }
 
 .pricing-box-sign-up .big-link-1,
 .pricing-box-sign-up .big-link-1:active:focus {
-	background: #2DB07C;
+	background: #29B29E;
 }
 
 
