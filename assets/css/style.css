@@ -44,7 +44,7 @@ h4 {
 
 img { max-width: 100%; }
 
-::-moz-selection { background: #2ca464; color: #fff; text-shadow: none; }
+::-moz-selection { background: #29B29E; color: #fff; text-shadow: none; }
 ::selection { background: #29B29E; color: #fff; text-shadow: none; }
 
 /***** Agenda names/roles *****/
@@ -315,7 +315,7 @@ ul.navbar-nav li a:hover:after, ul.navbar-nav li a:focus:after { opacity: 1; }
 .block-2-box ul span.list-icon {
 	padding-right: 10px;
 	font-size: 24px;
-	color: #2ca464;
+	color: #29B29E;
 	vertical-align: middle;
 }
 
@@ -403,7 +403,7 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 	line-height: 16px;
 }
 .portfolio-filters a:hover, .portfolio-filters a.active {
-	background: #2ca464;
+	background: #29B29E;
 	color: #fff;
 }
 
@@ -436,7 +436,7 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 	width: 100%;
 	height: 100%;
 	opacity: 0;
-	background: #2ca464;
+	background: #29B29E;
 	background: rgba(44, 164, 100, 0.6);
 	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 }
@@ -553,7 +553,7 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
-.history-blocks li.history-block-left:hover:after { background: #2ca464; }
+.history-blocks li.history-block-left:hover:after { background: #29B29E; }
 
 .history-blocks li.history-block-right {
 	position: relative;
@@ -774,7 +774,7 @@ li.history-block-6 { margin-top: 60px; }
 	width: 42px;
 	height: 42px;
 	padding-top: 4px;
-	background: #2ca464;
+	background: #29B29E;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 	font-size: 32px;
 	color: #fff;
@@ -846,7 +846,7 @@ li.history-block-6 { margin-top: 60px; }
 	top: 10px;
 	left: 0;
 	padding: 4px 10px;
-	background: #2ca464;
+	background: #29B29E;
 	font-size: 14px;
 	color: #fff;
 	line-height: 15px;
@@ -862,7 +862,7 @@ li.history-block-6 { margin-top: 60px; }
 }
 
 .about-us-box .about-us-social a { margin: 0 5px; color: #ddd; }
-.about-us-box .about-us-social a:hover, .about-us-box .about-us-social a:focus { color: #2ca464; }
+.about-us-box .about-us-social a:hover, .about-us-box .about-us-social a:focus { color: #29B29E; }
 
 .about-us-box .about-us-social a span { vertical-align: middle; }
 
@@ -892,7 +892,7 @@ li.history-block-6 { margin-top: 60px; }
 
 .contact-form form textarea { height: 162px; }
 
-.contact-form form .contact-error { border-color: #2ca464; }
+.contact-form form .contact-error { border-color: #29B29E; }
 
 .contact-form form button { width: 95%; }
 
