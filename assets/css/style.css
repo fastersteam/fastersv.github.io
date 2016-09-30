@@ -500,7 +500,7 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 	content: "";
 	position: absolute;
 	bottom: 0;
-	left: 49.4%;
+	left: 49.3%;
 	width: 16px;
 	height: 16px;
 	background: #d5d5d5;
@@ -530,7 +530,9 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 .history-blocks li.history-block-left h3 { float: left; max-width: 74%; margin: 0; font-size: 18px; line-height: 30px; }
 .history-blocks li.history-block-left p { float: left; max-width: 74%; margin: 5px 0 0 0; }
 
-.history-blocks li.history-block-left:hover { margin-left: 15px; }
+.history-blocks li.history-block-left:hover { margin-left: 0px; background: #29B29E; color: white;}
+.history-blocks li.history-block-left:hover a { color: white; text-decoration: underline;}
+.history-blocks li.history-block-left:hover h3 { color: white; }
 
 .history-blocks li.history-block-left:before {
 	content: "";
@@ -538,7 +540,7 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 	top: 50%;
 	left: 100%;
 	width: 25%;
-	height: 1px;
+	height: 0px;
 	background: #d5d5d5;
 }
 
@@ -571,7 +573,10 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 .history-blocks li.history-block-right h3 { float: left; max-width: 74%; margin: 0; padding-left: 15px; font-size: 18px; line-height: 30px; }
 .history-blocks li.history-block-right p { float: left; max-width: 74%; margin: 5px 0 0 0; padding-left: 15px; }
 
-.history-blocks li.history-block-right:hover { margin-right: 15px; }
+.history-blocks li.history-block-right:hover { margin-right: 0px; background: #29B29E; color: white;}
+.history-blocks li.history-block-right:hover a { color: white; text-decoration: underline;}
+.history-blocks li.history-block-right:hover h3 { color: white; }
+
 
 .history-blocks li.history-block-right:before {
 	content: "";
@@ -579,7 +584,7 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 	top: 50%;
 	right: 100%;
 	width: 25%;
-	height: 1px;
+	height: 0px;
 	background: #d5d5d5;
 }
 
