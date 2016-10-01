@@ -834,6 +834,11 @@ li.history-block-6 { margin-top: 60px; }
 	width: 200px;
 }
 
+.speaker-no-img img {
+	height: 150px;
+	width: 150px;
+}
+
 .speaker-description {
 	width: 60%;
 	margin-left: 50px;
