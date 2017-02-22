@@ -862,6 +862,12 @@ li.history-block-6 { margin-top: 60px; }
     padding-bottom: 10px;
 }
 
+.speaker-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
 /***** Sponsors *****/
 .sponsors-group {
 	display: flex;
