@@ -577,8 +577,8 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 	float: left; max-width: 100px; margin: 0;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
-.history-blocks li.history-block-right h3 { float: left; max-width: 74%; margin: 0; padding-left: 15px; font-size: 18px; line-height: 30px; }
-.history-blocks li.history-block-right p { float: left; max-width: 74%; margin: 5px 0 0 0; padding-left: 15px; }
+.history-blocks li.history-block-right h3 { float: max-width: 74%; margin: 0; padding-left: 15px; font-size: 18px; line-height: 30px; }
+.history-blocks li.history-block-right p { float: max-width: 74%; margin: 5px 0 0 0; padding-left: 15px; }
 
 .history-blocks li.history-block-right:hover { margin-right: 0px; background: #29B29E; color: white;}
 .history-blocks li.history-block-right:hover a { color: white; text-decoration: underline;}
