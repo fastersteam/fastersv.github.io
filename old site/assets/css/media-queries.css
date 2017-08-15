@@ -1,0 +1,157 @@
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	.block-3-box-icon .block-3-box-icon-number { left: 60px; }
+	
+	.block-2-box.block-2-media { padding-top: 40px; }
+	
+	.history-blocks li.history-block-left img { max-width: 90px; }
+	.history-blocks li.history-block-left h3 { max-width: 70%; }
+	.history-blocks li.history-block-left p { max-width: 70%; }
+	.history-blocks li.history-block-left:after { top: 44%; left: 122.5%; }
+	
+	.history-blocks li.history-block-right img { max-width: 90px; }
+	.history-blocks li.history-block-right h3 { max-width: 72%; }
+	.history-blocks li.history-block-right p { max-width: 72%; }
+	.history-blocks li.history-block-right:after { top: 44%; right: 122.1%; }
+	
+	.clients-text, .clients { padding-top: 40px; padding-bottom: 40px; }
+	.clients a { max-width: 170px; margin-left: 10px; margin-right: 10px; }
+	
+	.testimonial-list .testimonial-image { width: 20%; }
+	.testimonial-list .testimonial-text { width: 80%; }
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.top-content-text { margin-top: 200px; }
+	.slides-pagination { bottom: 20px; }
+	
+	.section-description p { padding: 0; }
+	
+	.block-3-box-icon .block-3-box-icon-number { left: 20px; }
+	
+	.block-2-box.block-2-media { padding-top: 40px; }
+	
+	.panel-group { margin-bottom: 10px; }
+	
+    .portfolio-filters { padding-left: 40px; padding-right: 40px; }
+    
+    .history-blocks ul:after { left: 49%; }
+    
+    .history-blocks li.history-block-left { width: 45%; }
+    .history-blocks li.history-block-left img { max-width: 70px; }
+	.history-blocks li.history-block-left h3 { max-width: 70%; }
+	.history-blocks li.history-block-left p { max-width: 70%; }
+	.history-blocks li.history-block-left:before { width: 11%; }
+	.history-blocks li.history-block-left:after { top: 45%; left: 108.5%; }
+	
+	.history-blocks li.history-block-right { width: 45%; }
+	.history-blocks li.history-block-right img { max-width: 70px; }
+	.history-blocks li.history-block-right h3 { max-width: 75%; }
+	.history-blocks li.history-block-right p { max-width: 75%; }
+	.history-blocks li.history-block-right:before { width: 11%; }
+	.history-blocks li.history-block-right:after { top: 45%; right: 108%; }
+	
+	.clients-text, .clients { padding-top: 40px; padding-bottom: 40px; }
+	.clients a { max-width: 130px; margin-left: 7px; margin-right: 7px; }
+	
+	.testimonial-list .testimonial-image { width: 25%; }
+	.testimonial-list .testimonial-text { width: 75%; }
+
+}
+
+@media (max-width: 767px) {
+	
+	.navbar.navbar-no-bg { background: #333; background: rgba(51, 51, 51, 0.8); }
+	.navbar>.container .navbar-brand { margin-left: 15px; }
+	.navbar-collapse { border: 0; }
+	.navbar-toggle { margin-top: 16px; }
+	.navbar-toggle .icon-bar { background: #fff; }
+	ul.navbar-nav li a { padding-top: 13px; padding-bottom: 13px; }
+	
+	h1, h2 { font-size: 22px; line-height: 24px; }
+	
+	.section-description p { padding: 0; }
+	
+	.divider-1 span { width: 200px; }
+	
+	.big-link-1 { margin: 5px; padding: 10px 15px; }
+	.big-link-2 { margin: 5px; padding: 9px 14px; }
+	
+	.top-content-text { width: auto; margin-top: 140px; padding-left: 15px; padding-right: 15px; }
+	.top-content-bottom-link { padding-top: 15px; }
+	.slides-pagination { display: none; bottom: 10px; }
+	
+	.block-3-box-icon .block-3-box-icon-number { left: 0; }
+	
+	.block-2-box { text-align: center; }
+	
+	.panel-group { margin-bottom: 0; }
+	.panel-collapse:after { display: none; }
+	
+	.portfolio-filters { padding-left: 15px; padding-right: 15px; }
+	.portfolio-masonry { max-width: 540px; margin-left: auto; margin-right: auto; }
+	.portfolio-box { width: 100%; }
+	
+	.history-blocks ul { padding-bottom: 20px; }
+	.history-blocks ul:before, .history-blocks ul:after { display: none; }
+    
+    .history-blocks li.history-block-left { width: 100%; text-align: center; }
+    .history-blocks li.history-block-left img { float: none; }
+	.history-blocks li.history-block-left h3 { float: none; max-width: none; margin-top: 15px; }
+	.history-blocks li.history-block-left p { float: none; max-width: none; }
+	.history-blocks li.history-block-left:hover { margin-left: 0; }
+	.history-blocks li.history-block-left:before, .history-blocks li.history-block-left:after { display: none; }
+	
+	.history-blocks li.history-block-right { width: 100%; text-align: center; }
+	.history-blocks li.history-block-right img { float: none; }
+	.history-blocks li.history-block-right h3 { float: none; max-width: none; margin-top: 15px; padding: 0; }
+	.history-blocks li.history-block-right p { float: none; max-width: none; padding: 0; }
+	.history-blocks li.history-block-right:hover { margin-right: 0; }
+	.history-blocks li.history-block-right:before, .history-blocks li.history-block-right:after { display: none; }
+	
+	li.history-block-2, li.history-block-6 { margin-top: 30px; }
+	
+	.clients-text { padding-bottom: 0; text-align: center; }
+	.clients { padding-top: 40px; }
+	
+	.pricing-box { padding-bottom: 50px; }
+    .pricing-box:last-child { padding-bottom: 20px; }
+	
+	.testimonial-list .testimonial-image { float: none; width: auto; text-align: center; }
+	.testimonial-list .testimonial-text { float: none; width: auto; margin-top: 30px; text-align: center; }
+	.testimonial-list .nav-tabs { margin-top: 20px; text-align: center; }
+	.testimonial-list .testimonial-image .testimonial-icon { display: none; }
+	
+	.address-box { padding-bottom: 0; }
+	.address-box:last-child { padding-bottom: 20px; }
+
+}
+
+@media (max-width: 570px) {
+	
+	.top-content-text { margin-top: 100px; }
+	.top-content-text p { margin-top: 10px; }
+	.top-content-bottom-link { padding-top: 5px; }
+
+}
+
+
+/* Retina-ize images/icons */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+	
+	/* logo */
+    .navbar-brand {
+    	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 79px 29px !important;
+    }
+	
+}
