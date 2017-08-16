@@ -42,7 +42,7 @@ h4 {
     line-height: 30px;
 }
 
-img { max-width: 75%; }
+img { max-width: 50%; }
 
 ::-moz-selection { background: #29B29E; color: #fff; text-shadow: none; }
 ::selection { background: #29B29E; color: #fff; text-shadow: none; }
