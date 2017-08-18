@@ -877,6 +877,7 @@ li.history-block-6 { margin-top: 60px; }
 .sponsor-container {
 	margin-left: 50px;
 	margin-right: 50px;
+	max-width: 300px;
 }
 
 .keynote-description h4 {
