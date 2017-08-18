@@ -878,6 +878,10 @@ li.history-block-6 { margin-top: 60px; }
 	margin-left: 50px;
 	margin-right: 50px;
 	max-width: 300px;
+
+}
+	@media only screen and (max-width: 460px) {
+ 	margin:0 auto;
 }
 
 .keynote-description h4 {
