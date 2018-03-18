@@ -46,20 +46,30 @@
         <div class="loader-img"></div>
     </div>
     <!-- Top menu -->
-    <nav class="navbar navbar-fixed-top navbar-no-bg" role="navigation">
+    <nav class="navbar navbar-fixed-top navbar-no-bg navbar-inverse" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="btton" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="index.html">FASTER</a> </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="top-navbar-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="scroll-link" href="#top-content">Home</a></li>
-                    <li><a href="archive.html">Archive</a></li> <!-- FIXTHIS: href isn't accurate and is just testing if the 2017 site works in its new folder. Need to make a static page still -->
-                    <li><a href="#mission">Mission</a></li>
-                    <li><a href="#goals">Goals</a></li>
-                    <li><a href="#team">Team</a></li>
+                	<li><a class="scroll-link" href="#top-content">Home</a></li>
+                    <li><a href="archive.html">Archive</a></li> 
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#mission">About<span class="caret"></span></a>
+                    	<ul class="dropdown-menu navbar-nav">
+                    		<li><a href="#mission">Mission</a></li>
+                    		<li><a href="#goals">Goals</a></li>
+                    		<li><a href="#team">Team</a></li>
+                    	</ul>
+                    </li>
+                    <li><a href="https://fastersv.typeform.com/to/NILm7N">Join</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#mission">Events<span class="caret"></span></a>
+                    	<ul class="dropdown-menu navbar-nav">
+                    		<li><a href="https://calendar.google.com/calendar/embed?src=faster.siliconvalley%40gmail.com&ctz=America%2FLos_Angeles">Calendar</a></li>
+                    		<li><a href="archive.html">FASTERCON</a></li>
+                    	</ul>
+                    </li>
                     <li><a href="#FAQ">FAQ</a></li>
-                    <li><a href="#conduct">Code of Conduct</a></li>
                     <li><a class="scroll-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -470,35 +480,40 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-2 block-3-box wow fadeInUp">
+                <div class="col-sm-3 block-3-box wow fadeInUp">
                     <div class="block-3-box-icon"> <a href="mailto:contactus@fastersv.org" target="_blank"><span aria-hidden="true" class="fa fa-envelope"></span></a> </div>
                     <p class="agrole">
                         <br>Drop us an e-mail at <a href="mailto:contactus@fastersv.org">contactus@fastersv.org</a></p>
                 </div>
-                <div class="col-sm-2 block-3-box wow fadeInUp">
+                <div class="col-sm-3 block-3-box wow fadeInUp">
                     <div class="block-3-box-icon"> <a href="http://bit.ly/FASTERSVfbpg" target="_blank"><span aria-hidden="true" class="fa fa-facebook-official"></span></a> </div>
                     <p class="agrole">
                         <br>Like our page</p>
                 </div>
-                <div class="col-sm-2 block-3-box wow fadeInUp">
+                <div class="col-sm-3 block-3-box wow fadeInUp">
                     <div class="block-3-box-icon"> <a href="http://bit.ly/fastersvtw" target="_blank"><span aria-hidden="true" class="fa fa-twitter"></span></a> </div>
                     <p class="agrole">
                         <br>Tweet or follow us</p>
                 </div>
-                <div class="col-sm-2 block-3-box wow fadeInUp">
+                <div class="col-sm-3 block-3-box wow fadeInUp">
                     <div class="block-3-box-icon"> <a href="https://www.linkedin.com/groups/7026141" target="_blank"><span aria-hidden="true" class="fa fa-linkedin"></span></a> </div>
                     <p class="agrole">
                         <br>Add us to your professional network</p>
                 </div>
-                <div class="col-sm-2 block-3-box wow fadeInUp">
+                <div class="col-sm-3 block-3-box wow fadeInUp">
                     <div class="block-3-box-icon"> <a href="http://eepurl.com/cg_gJ9" target="_blank"><span aria-hidden="true" class="fa fa-paper-plane"></span></a> </div>
                     <p class="agrole">
                         <br>Subscribe to our mailing list</p>
                 </div>
-                <div class="col-sm-2 block-3-box wow fadeInUp">
+                <div class="col-sm-3 block-3-box wow fadeInUp">
                     <div class="block-3-box-icon"> <a href="https://www.instagram.com/faster-siliconvalley" target="_blank"><span aria-hidden="true" class="fa fa-instagram"></span></a> </div>
                     <p class="agrole">
                         <br>We're on Instagram too</p>
+                </div>
+                <div class="col-sm-3 block-3-box wow fadeInUp">
+                    <div class="block-3-box-icon"> <a href="faster-team.slack.com" target="_blank"><span aria-hidden="true" class="fa fa-slack"></span></a> </div>
+                    <p class="agrole">
+                        <br>Join our Slack channel</p>
                 </div>
             </div>
             <!--div class="row"> <div class="col-sm-8 col-sm-offset-2 contact-form wow fadeInUp" align="center"> <form role="form" action="assets/contact.php" method="post"> <div class="form-group"> <label class="sr-only" for="contact-email">Email</label> <input type="text" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email"> </div> <div class="form-group"> <label class="sr-only" for="contact-subject">Subject</label> <input type="text" name="subject" placeholder="Subject..." class="contact-subject form-control" id="contact-subject"> </div> <div class="form-group"> <label class="sr-only" for="contact-message">Message</label> <textarea name="message" placeholder="Message..." class="contact-message form-control" id="contact-message"></textarea> </div> <button type="submit" class="btn">Send it</button> </form> </div> </div--></div>
