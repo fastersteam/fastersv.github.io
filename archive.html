@@ -23,7 +23,7 @@
     </div>
 
 <!-- Top menu -->
-        <nav class="navbar navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="btton" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
@@ -37,15 +37,25 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="top-navbar-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="archive.html">Archive</a></li>
-                        <li><a href="index.html#mission">Mission</a></li>
-                        <li><a href="index.html#goals">Goals</a></li>
-                        <li><a href="index.html#team">Team</a></li>
-                        <li><a href="index.html#FAQ">FAQ</a></li>
-                        <li><a href="#conduct">Code of Conduct</a></li>
-                        <li><a href="index.html#contact">Contact</a></li>
-                    </ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="archive.html">Archive</a></li> 
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="index.html#mission">About<span class="caret"></span></a>
+                        <ul class="dropdown-menu navbar-nav">
+                            <li><a href="index.html#mission">Mission</a></li>
+                            <li><a href="index.html#goals">Goals</a></li>
+                            <li><a href="index.html#team">Team</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://fastersv.typeform.com/to/NILm7N">Join</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#mission">Events<span class="caret"></span></a>
+                        <ul class="dropdown-menu navbar-nav">
+                            <li><a href="https://calendar.google.com/calendar/embed?src=faster.siliconvalley%40gmail.com&ctz=America%2FLos_Angeles">Calendar</a></li>
+                            <li><a href="archive.html">FASTERCON</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#FAQ">FAQ</a></li>
+                    <li><a class="scroll-link" href="index.html#contact">Contact</a></li>
+                </ul>
                 </div>
             </div>
         </nav>
