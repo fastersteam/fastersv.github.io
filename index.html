@@ -46,20 +46,30 @@
         <div class="loader-img"></div>
     </div>
     <!-- Top menu -->
-    <nav class="navbar navbar-fixed-top navbar-no-bg" role="navigation">
+    <nav class="navbar navbar-fixed-top navbar-no-bg navbar-inverse" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="btton" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="index.html">FASTER</a> </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="top-navbar-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="scroll-link" href="#top-content">Home</a></li>
-                    <li><a href="archive.html">Archive</a></li> <!-- FIXTHIS: href isn't accurate and is just testing if the 2017 site works in its new folder. Need to make a static page still -->
-                    <li><a href="#mission">Mission</a></li>
-                    <li><a href="#goals">Goals</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#FAQ">FAQ</a></li>
-                    <li><a href="#conduct">Code of Conduct</a></li>
+                	<li><a class="scroll-link" href="#top-content">Home</a></li>
+                    <li><a href="archive.html">Archive</a></li> 
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="index.html">About<span class="caret"></span></a>
+                    	<ul class="dropdown-menu navbar-nav">
+                    		<li><a href="#mission">Mission</a></li>
+                    		<li><a href="#goals">Goals</a></li>
+                    		<li><a href="#team">Team</a></li>
+                    	</ul>
+                    </li>
+                    <li><a href="join.html">Join</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#mission">Events<span class="caret"></span></a>
+                    	<ul class="dropdown-menu navbar-nav">
+                    		<li><a href="calendar.html">Calendar</a></li>
+                    		<li><a href="archive.html">FASTERCON</a></li>
+                    	</ul>
+                    </li>
+                    <li><a href="faq.html#FAQ">FAQ</a></li>
                     <li><a class="scroll-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -92,6 +102,7 @@
             </li>
         </ul>
     </div>
+
     <!-- ABOUT -->
     <a name="mission"></a>
     <div class="block-3-container section-container what-we-do-container">
@@ -375,91 +386,8 @@
     </div>
     <!-- Begin MailChimp Signup Form<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"><style type="text/css"> #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;} /* Add your own MailChimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */</style><div id="mc_embed_signup"><form action="//fastersv.us14.list-manage.com/subscribe/post?u=dbedf41401ef87b7d101d7e28&amp;id=e2c8c9aefd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate> <div id="mc_embed_signup_scroll"> <label for="mce-EMAIL">Subscribe to our mailing list</label> <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required> <! RESTORE THIS COMMENT ONCE STYLING HAS BEEN FIXED real people should not fill this in and expect good things - do not remove this or risk form bot signups > <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_dbedf41401ef87b7d101d7e28_e2c8c9aefd" tabindex="-1" value=""></div> <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div> </div></form></div>End mc_embed_signup-->
 
-    <!-- FAQ -->
-    <a name="FAQ"></a>
-    <div class="block-3-container section-container what-we-do-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 block-3 section-description wow fadeIn">
-                    <h2>FASTER FAQs (Frequently Asked Questions)</h2>
-                    <div class="divider-1 wow fadeInUp"><span></span></div>
-                    <h3>Just the Facts</h3>
-                    <p> Unfortunately we get a lot of email at FASTER.
-                        <br> Please check whether your inquiry may be addressed by one of the frequently asked questions below.
-                    </p>
-                    <br><h3>INSPIRE</h3>
-                    <p><b>Speaking requests</b>
-                        <br>Do you want to facilitate a workshop on your technical expertise at FASTERCON or talk about your work in tech (academic and other industry conference material) at a future event?
-                        <br>
-                        <br> Please fill out this form <a href ="">here</a>.
-                    </p>
-                    <br><h3>ORGANIZE</h3>
-                    <p><b>Are you Cal or Stanford alumni?</b>
-                        <br>Please learn more about the respective Pilipinx American alumni organizations here:
-                        <li><a href="http://bit.ly/calPAAC">Cal Pilipino American Alumni Chapter</a></li>
-                        <li><a href="http://bit.ly/SPANSite">Stanford Pilipino American</a></li>
-                        <br> <b>Are you a tech professional working at a large tech company or startup?</b>
-                        <br>Are you a FilipinX American working in tech? Are you a member of a Filipino American or other affinity employee resource group or want to start one? 
-                        <br>
-                        <br>Join FASTER Pros!
-                        <br>
-                        <br>Please fill out this <a href="https://fastersv.typeform.com/to/NILm7N">interest form</a> to sign up for more information on existing employee resource groups and to get involved in our various FASTER Pros committees. 
-                        <br> Members of FASTER Pros have the opportunity to mentor undergraduate students pursuing tech careers in the Bay Area/Silicon Valley. 
-                    </p>
-                    <br><h3>GIVE</h3>
-                    <p>Sponsorships - tech company employee resource groups and official 501(c3) non-profit and young professional groups 
-                        <br>Give back to community through FASTER sponsorships (fiscal and in name). Donate to FASTER here, all proceeds will go toward FASTERCON our mentorship programs. Please email us at <a href="mailto:contactus@fastersv.org">contactus@fastersv.org</a> for more information. 
-                        <br>
-                        <br><b>Job/internship/fellowship/scholarship/startup funding resources, event postings </b>
-                        <br>Looking to hire interns, young graduates, or other seasoned professionals?
-                        <br> Please post on our LinkedIn group and Facebook group. 
-                        <br>
-                        <br> If you would like to have this included in our quarterly newsletter, please email us at <a href="mailto:contactus@fastersv.org">contactus@fastersv.org</a>. Please send this at least 2 weeks in advance to the deadline of the posting, so we can allot time to schedule to place it in time for release of our quarterly  in our newsletter. 
-                        <br>
-                        <br><b>Mentorship Program - Youth outreach requests</b>
-                        <br>FASTER’s existing program currently serves at the college level, specifically for UC Berkeley and Stanford University undergraduate students.
-                        <br>
-                        <br>Please refer to our calendar of events open to all undergraduate and graduate students. 
-                        <br>
-                        <br>We organize an annual conference in October during Filipino American HXStory Month, FASTERCON, where attendance is open to Bay Area / Silicon Valley 4 year undergraduate academic institutions in the fields of Science, Technology, Engineering, Arts, and Math (STEAM). 
-                        <br>
-                        <br>If your school would like to attend our please indicate your desired cohort attendance (department, PilipinX American undergraduate student group), on this form here. 
-                        <br>
-                        <br>Other schools (non-UC Berkeley and Stanford) may participate in attending our quarterly G+ webinars regarding 3 areas: software engineering, design, and business development/sales/marketing. Other specialized vertical areas such as biotechnology, energy, will be announced in the future etc. We limit each webinar to 20 students. Registration for these webinars must be done 2 weeks in advance to each webinar. Please visit this page for our webinar calendar. </li>
-                        <br>
-                        <br><b>Press Inquiries</b>
-                        <br>All press inquiries can be made directly to <a href="mailto:contactus@fastersv.org">contactus@fastersv.org</a>. Please specify your publication name, email address, phone number, and deadline. You can also sign up for our email list here: 
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Code of Conduct -->
-    <a name="conduct"></a>
-    <div class="block-3-container section-container what-we-do-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 block-3 section-description wow fadeIn">
-                    <h2>Code of Conduct</h2>
-                    <div class="divider-1 wow fadeInUp"><span></span></div>
-                    <p> Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, technology choices, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
-                        <br>
-                        <br> Participants asked to stop any harassing behavior are expected to comply immediately.
-                        <br>
-                        <br> Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
-                        <br>
-                        <br> If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference.
-                        <br>
-                        <br> If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded clothing and/or badges.
-                        <br>
-                        <br> Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
-                        <br> We expect participants to follow these rules at conference and workshop venues and conference-related social events. </p>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Contact us -->
+    <a name="contact"></a>
     <div class="contact-container section-container">
         <div class="container">
             <div class="row">
@@ -470,35 +398,40 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-2 block-3-box wow fadeInUp">
+                <div class="col-sm-3 block-3-box wow fadeInUp">
                     <div class="block-3-box-icon"> <a href="mailto:contactus@fastersv.org" target="_blank"><span aria-hidden="true" class="fa fa-envelope"></span></a> </div>
                     <p class="agrole">
                         <br>Drop us an e-mail at <a href="mailto:contactus@fastersv.org">contactus@fastersv.org</a></p>
                 </div>
-                <div class="col-sm-2 block-3-box wow fadeInUp">
+                <div class="col-sm-3 block-3-box wow fadeInUp">
                     <div class="block-3-box-icon"> <a href="http://bit.ly/FASTERSVfbpg" target="_blank"><span aria-hidden="true" class="fa fa-facebook-official"></span></a> </div>
                     <p class="agrole">
                         <br>Like our page</p>
                 </div>
-                <div class="col-sm-2 block-3-box wow fadeInUp">
+                <div class="col-sm-3 block-3-box wow fadeInUp">
                     <div class="block-3-box-icon"> <a href="http://bit.ly/fastersvtw" target="_blank"><span aria-hidden="true" class="fa fa-twitter"></span></a> </div>
                     <p class="agrole">
                         <br>Tweet or follow us</p>
                 </div>
-                <div class="col-sm-2 block-3-box wow fadeInUp">
+                <div class="col-sm-3 block-3-box wow fadeInUp">
                     <div class="block-3-box-icon"> <a href="https://www.linkedin.com/groups/7026141" target="_blank"><span aria-hidden="true" class="fa fa-linkedin"></span></a> </div>
                     <p class="agrole">
                         <br>Add us to your professional network</p>
                 </div>
-                <div class="col-sm-2 block-3-box wow fadeInUp">
+                <div class="col-sm-3 block-3-box wow fadeInUp">
                     <div class="block-3-box-icon"> <a href="http://eepurl.com/cg_gJ9" target="_blank"><span aria-hidden="true" class="fa fa-paper-plane"></span></a> </div>
                     <p class="agrole">
                         <br>Subscribe to our mailing list</p>
                 </div>
-                <div class="col-sm-2 block-3-box wow fadeInUp">
+                <div class="col-sm-3 block-3-box wow fadeInUp">
                     <div class="block-3-box-icon"> <a href="https://www.instagram.com/faster-siliconvalley" target="_blank"><span aria-hidden="true" class="fa fa-instagram"></span></a> </div>
                     <p class="agrole">
                         <br>We're on Instagram too</p>
+                </div>
+                <div class="col-sm-3 block-3-box wow fadeInUp">
+                    <div class="block-3-box-icon"> <a href="https://faster-team.slack.com/" target="_blank"><span aria-hidden="true" class="fa fa-slack"></span></a> </div>
+                    <p class="agrole">
+                        <br>Join our Slack channel</p> 
                 </div>
             </div>
             <!--div class="row"> <div class="col-sm-8 col-sm-offset-2 contact-form wow fadeInUp" align="center"> <form role="form" action="assets/contact.php" method="post"> <div class="form-group"> <label class="sr-only" for="contact-email">Email</label> <input type="text" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email"> </div> <div class="form-group"> <label class="sr-only" for="contact-subject">Subject</label> <input type="text" name="subject" placeholder="Subject..." class="contact-subject form-control" id="contact-subject"> </div> <div class="form-group"> <label class="sr-only" for="contact-message">Message</label> <textarea name="message" placeholder="Message..." class="contact-message form-control" id="contact-message"></textarea> </div> <button type="submit" class="btn">Send it</button> </form> </div> </div--></div>
