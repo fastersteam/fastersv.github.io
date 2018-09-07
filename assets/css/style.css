@@ -854,6 +854,7 @@ li.history-block-6 { margin-top: 60px; }
 /***** Speakers *****/
 
 .speaker-img img {
+	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 	height: 200px;
 	width: 200px;
 }
@@ -867,7 +868,6 @@ li.history-block-6 { margin-top: 60px; }
 	width: 60%;
 	margin-left: 50px;
 	margin-right: 50px;
-	text-align:left;
 }
 
 .speaker-container {
@@ -948,7 +948,7 @@ li.history-block-6 { margin-top: 60px; }
 }
 
 .about-us-box .about-us-photo img {
-	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+	/*-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;*/
 }
 
 .about-us-box .about-us-photo .about-us-role {
