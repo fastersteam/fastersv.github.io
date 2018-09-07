@@ -53,8 +53,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="top-navbar-1">
                 <ul class="nav navbar-nav navbar-right">
-                	<li class="nav-item"><a class="scroll-link" href="index.html#top-content">Home</a></li>
+                	<li class="nav-item"><a href="index.html#top-content">Home</a></li>
+
                     <!--<li><a href="archive.html">Archive</a></li> -->
+
                     <li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
                     	<ul class="dropdown-menu navbar-nav">
                     		<li><a href="index.html#mission">Mission + Vision</a></li>
@@ -64,6 +66,7 @@
                     		<li><a href="faq.html#FAQ">FAQ</a></li>
                     	</ul>
                     </li>
+
                     <li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Components<span class="caret"></span></a>
                     	<ul class="dropdown-menu navbar-nav">
                     		<li class="dropdown-submenu"><a class="drop" href="#">Education <span class="fa fa-caret-right"></span></a>
@@ -71,12 +74,17 @@
            
                     				<li class="dropdown-submenu"><a class="drop" href="#">Fastercon <span class="fa fa-caret-right"></span></a>
 										<ul class="dropdown-menu navbar-nav">
-											<li class="dropdown-submenu"><a class="drop" href="fastercon18.html">Fastercon 2018 <span class="fa fa-caret-right"></span></a>
-												<ul class="dropdown-menu navbar-nav">
+											<li class="dropdown-submenu">
+                                                <a href="fastercon18.html">Fastercon 2018</a>
+
+												<!--
+                                                <ul class="dropdown-menu navbar-nav">
 													<li><a href="fastercon18.html">Event Page</a></li>
 													<li><a href="speakers18.html">Speakers</a></li>
 												</ul>
+                                                -->
 											</li>	
+
 											<li class="dropdown-submenu"><a class="drop" href="#">Archive <span class="fa fa-caret-right"></span></a>
 												<ul class="dropdown-menu navbar-nav">
 													<li><a href="archive/FASTER17/fastercon17.html">2017 site</a></li>
@@ -127,7 +135,7 @@
                 <div class="col-sm-12 block-3 section-description wow fadeIn">
                     <p>Check out our calendar for events!</p> 
                     <div class="divider-1 wow fadeInUp"><span></span></div>
-                    <iframe src="https://calendar.google.com/calendar/embed?src=contactus%40faster-steam.org&ctz=America%2FLos_Angeles" style="border: 0" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://calendar.google.com/calendar/embed?src=contactus%40faster-steam.org&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
         </div>
@@ -145,6 +153,7 @@
                 <div class="col-sm-12 footer-copyright"> &copy; FASTER 2017 </div> Logo created by <a href="http://www.fredmadrid.com">Fred Madrid</a> </div>
         </div>
     </footer>
+
     <!-- Javascript -->
     <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -159,14 +168,14 @@
     <!--[if lt IE 10]> <script src="assets/js/placeholder.js"></script> <![endif]-->
 	
 	<script>
-$(document).ready(function(){
-  $('.dropdown a.drop').on("click", function(e){
-    $(this).next('ul').toggle();
-    e.stopPropagation();
-    e.preventDefault();
-  });
-});
-</script>
+        $(document).ready(function(){
+          $('.dropdown a.drop').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+          });
+        });
+    </script>
 </body>
 
 </html>
