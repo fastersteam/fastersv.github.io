@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html lang="en"><head>
+<!doctype html>
+<html>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,15 +37,9 @@
         ga('create', 'UA-84644258-1', 'auto');
         ga('send', 'pageview');
     </script>
-
 </head>
 
 <body>
-    <!-- Loader -->
-    <div class="loader">
-        <div class="loader-img"></div>
-    </div>
-
 <!-- Top menu -->
         <nav class="navbar navbar-fixed-top navbar-no-bg navbar-inverse" role="navigation">
 
@@ -209,21 +204,24 @@
             </div>
         </div>
         </nav>
-
-    <!-- Calendar -->
-    <a name="calendar"></a>
+    
+    
     <div class="block-3-container section-container what-we-do-container">
-        <div class="container">
+    	<div class="container">
             <div class="row">
                 <div class="col-sm-12 block-3 section-description wow fadeIn">
-                    <p>Check out our calendar for events!</p> 
+					<h2>BLOG</h2>
                     <div class="divider-1 wow fadeInUp"><span></span></div>
-                    <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=faster-steam.org_tj1uu53d4d1g4i94ms92gg3hd4%40group.calendar.google.com&amp;color=%235F6B02&amp;src=faster-steam.org_dd8mh0k5g0tpggub0kipqltneo%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
- 
+					
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    
+    
+    
+    
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -236,7 +234,6 @@
                 <div class="col-sm-12 footer-copyright"> &copy; FASTER 2017 </div> Logo created by <a href="http://www.fredmadrid.com">Fred Madrid</a> </div>
         </div>
     </footer>
-
     <!-- Javascript -->
     <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -251,14 +248,13 @@
     <!--[if lt IE 10]> <script src="assets/js/placeholder.js"></script> <![endif]-->
 	
 	<script>
-        $(document).ready(function(){
-          $('.dropdown a.drop').on("click", function(e){
-            $(this).next('ul').toggle();
-            e.stopPropagation();
-            e.preventDefault();
-          });
-        });
-    </script>
+$(document).ready(function(){
+  $('.dropdown a.drop').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
 </body>
-
 </html>

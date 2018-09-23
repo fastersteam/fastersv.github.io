@@ -58,13 +58,14 @@
             ga('create', 'UA-84644258-1', 'auto');
             ga('send', 'pageview');
         </script>
+		
     </head>
 
     <body>
         <!-- Loader -->
-        <div class="loader">
+        <!--<div class="loader">
             <div class="loader-img"></div>
-        </div>
+        </div>-->
 
         <!-- Top menu -->
         <nav class="navbar navbar-fixed-top navbar-no-bg navbar-inverse" role="navigation">
@@ -205,7 +206,23 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="">
+                            Media
+							<span class="caret"></span>
+                        </a>
+						<ul class="dropdown-menu navbar-nav">
+                            <li><a href="media.html">Media Releases</a></li>
+                        </ul>
+                    </li>
+					
+					<li class="nav-item dropdown">
+                        <a href="blog.html">
+                            Blog
+                        </a>
+                    </li>
+					
+					<li class="nav-item">
                         <a href="index.html#suggest">
                             Suggestion Box
                         </a>
@@ -658,7 +675,7 @@
 
                         <h3>Erin Pangilinan</h3>
 
-                        <p>
+                        <p style="color: gray">
                             FASTER Co-Founder | National Board President
                             <br/>
                             Co-Editor, O'Reilly Media
@@ -925,7 +942,7 @@
                         <div class="divider-1 wow fadeInUp"><span></span></div>
                         <p> Tell us how we're doing </p>
 
-                        <form>
+                        <form action="" method="post">
                             <label>
                                 <textarea name="input" id="input" cols="45" rows="5"></textarea>
                             </label>
@@ -933,7 +950,7 @@
                             <br/>
                             <br/>
                             
-                            <input Onclick="" type="button" value="Submit" />
+                            <input name="SubmitButton" Onclick="" type="button" value="Submit" />
                         </form>
                     </div>
                 </div>
