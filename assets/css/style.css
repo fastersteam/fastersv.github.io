@@ -551,7 +551,7 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
 .history-blocks li.history-block-left h3 { max-width: 95%; margin: 0; font-size: 18px; line-height: 30px; }
-.history-blocks li.history-block-left p { max-width: 95%; margin: 5px 0 0 0; padding-right:15px; }
+.history-blocks li.history-block-left p { max-width: 95%; margin: 5px 0 0 0; padding: 0; }
 
 .history-blocks li.history-block-left:hover { margin-left: 0px; background: #29B29E; color: white;}
 .history-blocks li.history-block-left:hover a { color: white; text-decoration: underline;}
@@ -594,7 +594,7 @@ h4.panel-title a, h4.panel-title a:hover, h4.panel-title a:focus { color: #444; 
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
 .history-blocks li.history-block-right h3 { max-width: 95%; margin: 0; padding-left: 15px; font-size: 18px; line-height: 30px; }
-.history-blocks li.history-block-right p { max-width: 95%; margin: 5px 0 0 0; padding-left: 15px; }
+.history-blocks li.history-block-right p { max-width: 95%; margin: 5px 0 0 0; padding: 0 0 0 15px; }
 
 .history-blocks li.history-block-right:hover { margin-right: 0px; background: #29B29E; color: white;}
 .history-blocks li.history-block-right:hover a { color: white; text-decoration: underline;}
