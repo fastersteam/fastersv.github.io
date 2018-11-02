@@ -353,12 +353,16 @@ ul.navbar-nav li a:hover:after, ul.navbar-nav li a:focus:after { opacity: 1; }
 	margin: 0 auto;
 }
 
+
+.carousel{
+	margin: auto;
+}
+
 .carousel-indicators {
-	bottom: -40px;
 	margin-bottom: 0;
 }
 
-.carousel-indicators li { border-color: #444; }
+.carousel-indicators li { border-color: #444; background:white; }
 .carousel-indicators .active { background-color: #444; }
 
 /* accordion */
