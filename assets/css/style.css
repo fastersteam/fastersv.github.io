@@ -220,6 +220,7 @@ ul.navbar-nav li a:hover:after, ul.navbar-nav li a:focus:after { opacity: 1; }
 
 .dropdown-submenu {
     position: relative;
+
 }
 
 .dropdown-submenu .dropdown-menu {
@@ -1081,7 +1082,7 @@ footer .scroll-to-top a:hover, footer .scroll-to-top a:focus, footer .scroll-to-
 }
 
 /*
- Hide the images by default 
+ Hide the images by default
 .mySlides {
     display: none;
 }
@@ -1158,11 +1159,11 @@ footer .scroll-to-top a:hover, footer .scroll-to-top a:focus, footer .scroll-to-
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
