@@ -1232,7 +1232,7 @@
                     <div class="col-sm-3 block-3-box wow fadeInUp">
                         <div class="block-3-box-icon">
                             <label for="joinslack-toggle">
-                                <a target="_blank">
+                                <a href="https://faster-steam.slack.com" target="_blank">
                                     <span aria-hidden="true" class="fa fa-slack"/>
                                 </a>
                             </label>
@@ -1246,6 +1246,8 @@
                                 Join our Slack channel
                             </label>
 
+                            <!--
+                                Commented out until we can get the join interaction working
                             <div id="joinslack-div">
                                 <form id="joinslack-form">
                                     <input type="email" name="email"
@@ -1257,6 +1259,7 @@
                             <div id="joinslack-status">
                                 <span id="joinslack-message"></span>
                             </div>
+                            -->
                         </p>
                     </div>
                 </div>
@@ -1341,6 +1344,7 @@
 
                     // set handler on change of checkbox
                     // then, trigger an initializing change event
+                    /* commented out until we can have the token accessed in a reasonable way
                     $('#joinslack-toggle').change(
                         function() {
                             $('#joinslack-div').toggle(this.checked);
@@ -1356,7 +1360,7 @@
                                   'https://'
                                 + 'faster-team.slack.com'
                                 + '/api/users.admin.invite?'
-                                + 'token=' + 'xoxp-16325047910-282224196964-584574582391-0b1d902dd0c88bc57df62cfa447859cb' + '&'
+                                + 'token=' + '' + '&'
                                 + 'email=' + $(this).find("input[name='email']").val() + '&'
                                 + 'channels=C0G9ELBSR&'
                                 + 'resend=true'
@@ -1385,6 +1389,7 @@
                             );
                         }
                     );
+                    */
                 }
             );
         </script>
