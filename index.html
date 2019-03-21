@@ -1231,23 +1231,38 @@
 
                     <div class="col-sm-3 block-3-box wow fadeInUp">
                         <div class="block-3-box-icon">
-                            <a href="https://faster-team.slack.com/" target="_blank">
-                                <span aria-hidden="true" class="fa fa-slack"></span>
-                            </a>
+                            <label for="joinslack-toggle">
+                                <a target="_blank">
+                                    <span aria-hidden="true" class="fa fa-slack"/>
+                                </a>
+                            </label>
                         </div>
 
                         <p class="agrole">
                             <br/>
-                            Join our Slack channel
+
+                            <input type="checkbox" id="joinslack-toggle">
+                            <label id="joinslack-label" for="joinslack-toggle">
+                                Join our Slack channel
+                            </label>
+
+                            <div id="joinslack-div">
+                                <form id="joinslack-form">
+                                    <input type="email" name="email"
+                                           placeholder="email address">
+                                    <input type="submit" value="Receive Slack Invite">
+                                </form>
+                            </div>
+
+                            <div id="joinslack-status">
+                                <span id="joinslack-message"></span>
+                            </div>
                         </p>
                     </div>
                 </div>
 
-                <!--div class="row"> <div class="col-sm-8 col-sm-offset-2 contact-form wow fadeInUp" align="center"> <form role="form" action="assets/contact.php" method="post"> <div class="form-group"> <label class="sr-only" for="contact-email">Email</label> <input type="text" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email"> </div> <div class="form-group"> <label class="sr-only" for="contact-subject">Subject</label> <input type="text" name="subject" placeholder="Subject..." class="contact-subject form-control" id="contact-subject"> </div> <div class="form-group"> <label class="sr-only" for="contact-message">Message</label> <textarea name="message" placeholder="Message..." class="contact-message form-control" id="contact-message"></textarea> </div> <button type="submit" class="btn">Send it</button> </form> </div> </div-->
             </div>
         </div>
-        <!-- Address -->
-        <!--div class="address-container section-container section-container-full-bg"> <div class="container"> <div class="row"> <div class="col-sm-3 address-box wow fadeInUp"> <div class="address-box-icon"> <span class="icon_pin"></span> </div> <p>Silicon Valley</p> </div> <div class="col-sm-3 address-box wow fadeInUp"> <div class="address-box-icon"> <span class="icon_mail"></span> </div> <p>Email: <a href="#">contactus@fastersv.org</a></p> </div> </div> <div class="row"> <div class="col-sm-12 wow fadeInUp"> <div class="divider-1 wow fadeInUp"><span></span></div> </div> </div> <div class="row"> <div class="col-sm-12 address-social wow fadeInUp"> <a href="http://bit.ly/FASTERSVfbpg"><span class="social_facebook"></span></a> <a href="http://bit.ly/fastersvtw"><span class="social_twitter"></span></a> <a href="instagram.com/faster-siliconvalley"><span class="social_instagram"></span></a> </div> </div> </div> </div-->
 
         <!-- Suggestion Box -->
         <a name="suggest"></a>
@@ -1306,19 +1321,72 @@
         <script src="assets/js/waypoints.min.js"></script>
         <script src="assets/js/masonry.pkgd.min.js"></script>
         <script src="assets/js/scripts.js"></script>
+        <!-- <script src="assets/js/util.js"></script> -->
         <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
         <![endif]-->
 
         <script>
-            $(document).ready(function(){
-                $('.dropdown a.drop').on("click", function(e){
-                    $(this).next('ul').toggle();
+            $(document).ready(
+                function(){
+                    $('.dropdown a.drop').on(
+                        "click",
+                        function(e){
+                            $(this).next('ul').toggle();
 
-                    e.stopPropagation();
-                    e.preventDefault();
-                });
-            });
+                            e.stopPropagation();
+                            e.preventDefault();
+                        }
+                    );
+
+                    // set handler on change of checkbox
+                    // then, trigger an initializing change event
+                    $('#joinslack-toggle').change(
+                        function() {
+                            $('#joinslack-div').toggle(this.checked);
+                        }
+                    ).change();
+
+                    $('#joinslack-form').submit(
+                        function(e) {
+                            e.preventDefault();
+
+                            // may we be forgiven for this terrible style
+                            var slack_url = (
+                                  'https://'
+                                + 'faster-team.slack.com'
+                                + '/api/users.admin.invite?'
+                                + 'token=' + 'xoxp-16325047910-282224196964-584574582391-0b1d902dd0c88bc57df62cfa447859cb' + '&'
+                                + 'email=' + $(this).find("input[name='email']").val() + '&'
+                                + 'channels=C0G9ELBSR&'
+                                + 'resend=true'
+                            );
+
+                            $.post(
+                                slack_url,
+                                {},
+                                function(data) {
+                                    if (data.ok) {
+                                        $('#joinslack-div').toggle(false);
+                                        $('#joinslack-message').text(
+                                            "Invite Sent! We'll be talking with you soon!"
+                                        );
+                                    }
+
+                                    else {
+                                        $('#joinslack-div').toggle(true);
+                                        $('#joinslack-message').text(
+                                            "Invite not sent: (" + data.error + ")"
+                                        );
+                                    }
+
+                                    $('#joinslack-status').toggle(true);
+                                }
+                            );
+                        }
+                    );
+                }
+            );
         </script>
 
     </body>
