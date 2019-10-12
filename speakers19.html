@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>FASTER</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
+
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/elegant-font/code/style.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/superslides.css">
+        <link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+        <!-- Scripts -->
+        <script>
+            (
+                function(i,s,o,g,r,a,m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function() {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a       = s.createElement(o),
+                    m       = s.getElementsByTagName(o)[0];
+
+                    a.async = 1;
+                    a.src   = g;
+
+                    m.parentNode.insertBefore(a,m)
+                }
+            )(
+                window,
+                document,
+                'script',
+                'https://www.google-analytics.com/analytics.js',
+                'ga'
+            );
+
+            ga('create', 'UA-84644258-1', 'auto');
+            ga('send'  , 'pageview'             );
+        </script>
+
+        <!-- SEO -->
+        <noscript>
+            <a href="https://www.eventbrite.com/e/fastercon18-tickets-49879245165"
+               rel="noopener noreferrer"
+               target="_blank"/>
+        </noscript>
+
+        <!-- You can customize this button any way you like -->
+        <noscript></a>Buy Tickets on Eventbrite</noscript>
+
+        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+        <script type="text/javascript">
+            var orderCompleteCallback = function() {
+                console.log('We look forward to seeing you at FASTERCON18!');
+            };
+
+            window.EBWidgets.createWidget({
+                widgetType           : "checkout",
+                eventId              : "49879245165",
+                modal                : true,
+                modalTriggerElementId: "eventbrite-widget-modal-trigger-49879245165",
+                onOrderComplete      : orderCompleteCallback
+            });
+        </script>
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125418366-1"></script>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+            gtag('config', 'UA-125418366-1');
+        </script>
+
+   </head>
+
+   <body>
+
+      <!-- Top menu -->
+      <nav class="navbar navbar-fixed-top navbar-no-bg navbar-inverse" role="navigation">
+
+        <div class="container">
+            <div class="navbar-header">
+                <button type="btton" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="index.html">FASTER</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="top-navbar-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a href="index.html#top-content">Home</a>
+                    </li>
+
+                    <!--<li><a href="archive.html">Archive</a></li> -->
+
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            About
+                            <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu navbar-nav">
+                            <li><a href="index.html#mission">Mission + Vision</a></li>
+                            <li><a href="index.html#goals">Goals</a></li>
+                            <li><a href="index.html#team">Team</a></li>
+                            <li><a href="index.html#conduct">Conduct Code</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                            <li><a href="faq.html#FAQ">FAQ</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="index.html">
+                            Components
+                            <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu navbar-nav">
+                            <li class="dropdown-submenu">
+                                <a class="drop" href="#">
+                                    Education
+                                    <span class="fa fa-caret-right"></span>
+                                </a>
+
+                                <ul class="dropdown-menu navbar-nav">
+                                    <li class="dropdown-submenu">
+                                        <a class="drop" href="#">
+                                            Fastercon
+                                            <span class="fa fa-caret-right"></span>
+                                        </a>
+
+                                        <ul class="dropdown-menu navbar-nav">
+                                            <li class="dropdown-submenu">
+                                                <a class="drop" href="#">
+                                                    Fastercon 2019
+                                                    <span class="fa fa-caret-right"></span>
+                                                </a>
+
+                                                <ul class="dropdown-menu navbar-nav">
+                                                    <li><a href="speakers19.html">Speakers</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="dropdown-submenu">
+                                                <a class="drop" href="#">
+                                                    Archive
+                                                    <span class="fa fa-caret-right"></span>
+                                                </a>
+
+                                                <ul class="dropdown-menu navbar-nav">
+                                                    <li><a href="archive/FASTER17/fastercon17.html">2017 site</a></li>
+                                                    <li><a href="archive/FASTER16/fastercon16.html">2016 site</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="mentorship.html">Mentorship</a></li>
+
+                                    <li><a href="techincolor.html">TechInColor</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li><a href="pinaysintech.html">Pinays In Tech</a></li>
+
+                            <li><a href="pros.html">PROS</a></li>
+
+                            <li class="dropdown-submenu">
+                                <a class="drop" href="#">
+                                    Community
+                                    <span class="fa fa-caret-right"></span>
+                                </a>
+
+                                <ul class="dropdown-menu navbar-nav">
+                                    <li class="dropdown-submenu">
+                                        <a class="drop" href="#">
+                                            Partnerships
+                                            <span class="fa fa-caret-right"></span>
+                                        </a>
+
+                                        <ul class="dropdown-menu navbar-nav">
+                                            <li><a href="benefitconcert.html">Benefit Concert</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="community.html">Online Database</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="partners.html">Partners</a></li>
+
+                        </ul>
+                    </li>
+
+                    <!--<li><a href="join.html">Join</a></li> -->
+
+                    <li class="nav-item dropdown ">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#mission">
+                            Events
+                            <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu navbar-nav">
+                            <li><a href="calendar.html">Calendar</a></li>
+
+                            <!--<li><a href="archive.html">FASTERCON</a></li>-->
+                            <!--<li><a href="events.html">Events Info</a></li>-->
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="">
+                            Media
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu navbar-nav">
+                            <li><a href="media.html">Media Releases</a></li>
+                            <li><a href="media-faster18.html">FASTERCON 2018</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="blog.html">
+                            Blog
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="index.html#suggest">
+                            Suggestion Box
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+        <div class="block-3-container section-container what-we-do-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 block-3 meet-our-speakers-header wow fadeIn">
+                        <h2>FASTERCON 2019 Speakers</h2>
+                        <div class="divider-2 wow fadeInUp"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+        <div class="speaker-container">
+          <div class="speaker-description">
+                <h3>Aaron Aquino</h3>
+                <p>
+                 Hi there! My name is Aaron, and I’m a frontend software engineer on the Gmail Web team in Sunnyvale. I enjoy using knowledge from different fields to build accessible software that makes everyday life more fun, organized, and efficient. I graduated with Stanford’s class of 2018 as a Computer Science major/Spanish minor and was an active member of PASU (Pilipino American Student Union) throughout my undergrad. Outside of work you’re likely to find me performing urban dance, dabbling in graphic design, journaling, or sneaking in cat naps.
+                </p>
+            </div>
+        </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Armbien Sabillo</h3>
+        <p>
+          Armbien is a J.D. candidate at Berkeley Law emphasizing patent law and science policy. He helps scientists and engineers commercialize their inventions and protect their products from being copied. Armbien was born in the Philippines and moved to California at age 12. He completed his B.S. in Physiology at San Francisco State University and his Ph.D. in Molecular & Cell Biology at UC Berkeley. After graduating, he will be joining an international tech law firm in Silicon Valley. His long-term goals are to increase funding for science research and access to science education.
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Bianca M. Curutan</h3>
+        <p>
+          Bianca is a Software Engineer at Postmates, where she works on the Android and iOS apps. Although she is currently located in the Bay Area, she is originally from Canada and earned her B.Math. and M.Eng. degrees there, with a focus on business systems management and code generation research respectively. Her past work experience includes Fandango, Flixster/Rotten Tomatoes, and Sun Life Financial. Outside of work, Bianca is an active speaker and member of the tech community. She is also a certified yoga and lyra instructor and circus enthusiast, so you can almost always find her at the studio.
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Chris Bulaon</h3>
+        <p>
+          UCD Engineering alum now working in Tech/Product Marketing.  A nerd that loves basketball, Star Wars, board games, and road cycling.
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Christopher Rosana</h3>
+        <p>
+          I was born and raised in United Arab Emirates. I find myself culturally diverse where I get to know and embraced the idea of exploring other cultures. I enjoy traveling where I go to various places and immerse myself on culture, food, entertainment, and art. This is the same thing as my love of exploring and learning the latest trend on new technologies and gadgets. 
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Dan Gonzales</h3>
+        <p>
+          Dan is a first generation Filipino American and only child. He was born and raised in San Francisco and graduated UC Riverside with a Bachelor's in English. 
+Since graduating in 2017, he went on to work for a venture firm called VU Venture Partners where he invested in five startups across different verticals and worked with entrepreneurs to create a better future.  
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Dyan A. Ludeña Ferraris</h3>
+        <p>
+            Dyan is deeply dedicated to social justice inside and outside of the workplace. She currently practices this by working to change the culture in Tech and by engaging with her community through volunteering and martial arts. Dyan's work has been featured in the Academy of Management and the Journal of Neurosurgery. She holds a Ph.D. in Social-Organizational Psychology from Columbia University where she conducted research on intersectionality, bias, stereotyping, and their impact on outcomes like hiring, promotion, and engagement. Dyan also has a B.A. in Psychology and Complex Organizations from Mount Holyoke College.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Elizabeth Bautista</h3>
+        <p>
+         Elizabeth Bautista is manager for the Operations Technology Group at Lawrence Berkeley National Lab’s National Energy Research Scientific Computing Center. The group ensures 24x7 accessibility, reliability, and security of the High Performance Systems & data storage systems. NERSC is the primary scientific computing facility for the Office of Science in the U.S. Department of Energy.
+
+Bautista supports programs that involve minorities and women in STEM and advocates that the next generation of professionals have practical hands-on training as part of their education. She has a B.S. in CIS & an M.B.A. in Technical Management from Golden Gate University.
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Erin Jerri Malonzo Pangilinan </h3>
+        <p>
+          Erin Jerri Malonzo Pangilinan is a proud Silicon Valley native born and raised, UC Berkeley alumnus, computational designer and software engineer hybrid. She is a stealth startup founder advancing Alzheimer’s research with Artificial Intelligence (AI) and spatial computing. In addition to serving as the founder and National Board President of Filipinx Americans in STEAM (FASTER), she is also co-founder and board adviser of 501(c)(3) non-profit focused on diversity and inclusion for women and underrepresented communities, ARVR Academy. She is lead co-editor and contributor of the internationally acclaimed O’Reilly Media collective anthology, Creating Augmented + Virtual Realities (AR+VR): Theory and Practice for Next-Generation Spatial Computing, which debuted #1 Game Programming on Amazon and #2 for Top 10 VR Books to Read by Book Authority. The book will be translated in Chinese (December 2020), Korean (February 2020), and Japanese (2020 TBA). Her chapter covers data and machine learning visualization design and development in spatial computing. In 2017-2018, Erin was selected as a Diversity Fellow at University of San Francisco (USF) Data Institute Deep Learning Program. In 2018, she was selected as a fellow in Oculus Launch Pad. 
+        </p>
+      </div>
+    </div>
+
+
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Gina Mariko Rosales</h3>
+        <p>
+          Gina Mariko Rosales is an #Entrepinay (pinay entrepreneur), events enthusiast, efficiency nerd, and nonprofit advocate. She is the Founder & Owner of Make it Mariko Events, as well as the Co-Founder & Event Producer of the Undiscovered SF Creative Night Market in SOMA Pilipinas, which launched to over 10,000 people and is on their 3rd Season. Prior to founding Make it Mariko, Gina spent 10 years doing corporate & nonprofit event planning, administration, and operations including 7 years working for Google, most recently as the Head of Marketing Events for Google X. Gina’s mission is to curate magical, meaningful moments for the community while amplifying the voices of creatives of color through Endeavors Collective (endeavorscollective.com) and the Entrepinays Summit (entrepinays.com). 
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Giovanni Nakpil</h3>
+        <p>
+          Giovanni Nakpil is a 3D Artist working at Oculus. He is profoundly influenced by the magic of sci-fi and horror films. His multidisciplinary career led him to various art positions across the United States, such as digital model supervisor at Industrial Light and Magic (ILM). Giovanni has worked on principal creatures for "Star Trek" and "The Avengers," among other notable Hollywood films. He has also designed and built video game assets for Valve Corporation. 
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Ian Gomez</h3>
+        <p>
+            Ian Gomez has over 10 years of sales and marketing experience in tech and luxury retail. He is the Director of Integrated Marketing at H2O.ai where he leads programs that create demand, accelerate sales pipeline and drives revenue.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Ian Torres</h3>
+        <p>
+            Ian Torres is a software engineer at Riot Games, working on an unannounced R&D project. He also leads FAR, Riot’s Filipino ERG. Ian was an active member of Stanford’s Pilipino American Student Union for all four years of undergrad, and is excited to keep participating in the Fil-Am community as a professional! If you see Ian, chat him up about freestyle rap, urban/hip hop dance, and Super Smash Bros. Melee.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Jamie Cristal</h3>
+        <p>
+           Jamie Cristal is a multi-disciplinary designer based in San Francisco, CA with experience in Design Systems, Product Design, Prototyping, Illustration, Print, and Brand Identity. 
+
+She is currently an Inclusive Designer at Airbnb helping create a world where anyone can belong anywhere. She previously led design initiatives at Facebook as a Design Operations Program Manager and Product Design Lead—prior to Facebook, she served as one of Yahoo’s first Design Associates where she spearheaded cultural initiatives for the greater design community and led the craftsmanship of delightful experiences for various parts of the business, such products include Flickr, Tumblr, and Yahoo.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Jasmine Mayo</h3>
+        <p>
+          Jasmine has worked in the tech industry for over 10 years focusing on the video game space for nine. She have experience leading PR, events, community management and social media as well as business development including fundraising, investment evaluations and strategic partnerships. She previously spent time working in-house for game studios including Electronic Arts, NetEase, Storm8 and SEGA. Jasmine has worked in startup-type environments that require creative campaigns and has launched over 100 games and projects since joining the industry. Jasmine is now the head of the gaming division at GameOn Technology, a venture backed SaaS start-up that focuses on making chat applications for sports and game companies, driving revenue and partnerships within the video game industry.
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Jay Torres</h3>
+        <p>
+          With over twenty years of design industry experience, Jay Torres continues to strive as a design professional delivering innovative products and leading high-performance design teams. He is currently a Director of Product Design at Verizon Media where he oversees product design architecture and initiatives for enterprise platforms: monitoring, CI/CD, authorization, anti-abuse, cloud monitoring, and design systems.  As a co-head of Verizon Media’s Design Associate Program, Jay also provides mentorship and nurtures future design professionals early in their careers. 
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>JC "Joshua Caleb" Dy</h3>
+        <p>
+          Kumusta! My name's JC, which stands for Joshua Caleb (not Jesus Christ). I graduated from Cal just last fall, where I was involved with PASAE and teaching for my favorite computer science courses. Since then, I've started off my career at Google, working as a full stack engineer on the YouTube casting team. When I have downtime, I like jamming with my ukulele/piano, unreservedly trying all kinds of new foods, traveling, and most recently, learning hip hop dance choreography.
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Jette Cantiller</h3>
+        <p>
+            I was born in Quezon City, Philippines and spent most of my early childhood in San Juan and Malabon. I came to the Bay Area in 2001 and quickly started helping out my dad setup internet services across the valley. I graduated from UC Davis with a BS in CS and joined Workday in the Summer of 2017. Recently, I moved to Workday’s Boulder, Colorado campus and work in integrating human capital data across a multitude of productivity tools.
+
+        </p>
+      </div>
+    </div>
+
+<div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Jobel Kyle Vecino</h3>
+        <p>
+          Jobel Vecino is a full-stack software engineer at PayPal. Jobel grew up in the East Bay and attended Hercules High School, making him a Bay Area native for most of his life. His previously worked as a software engineer at a London startup that produced hearing defenders, lectured introductory Computer Science at UC Berkeley, and conducted cybersecurity policy research. In his spare time, Jobel writes short stories, goes to indie music shows, and engages in political activism. Jobel graduated with a BA in Political Science and Computer Science from UC Berkeley in 2018.
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Jonathan Javier</h3>
+        <p>
+            Jonathan Javier is a graduate from the University of California, Riverside. He has worked at prestigious companies in Strategy and Operations including Snapchat, Google, and currently Cisco. He also runs his own career consulting firm, Wonsulting, which mission is "to turn underdogs into winners" His passion is to help make a difference in his community, working on many initiatives including #JWoW and #WeeklyWordsofWisdom. He has led over 37 Career Development workshops, has his own speaker series called #JWoWSpeakerSeries with over 19 speaker engagements conducted/15 more planned this year, and has spoken in Jordan, Vancouver, Texas, and more.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Kevin Benamer</h3>
+        <p>
+           Currently working to bring back all that I've learned to the communities that helped me grow.
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Melissa Pangilinan</h3>
+        <p>
+            Melissa is a software engineer at Uber, where she works on the Uber for Business Money Platform team. Previously, she was at Capital One developing online applications for small businesses, API platforms for consumer products, and Capital One’s flagship streaming data platform. While in college, Melissa interned at EchoStar (parent company of Dish Network) where she patented her algorithm on applying artificial intelligence to television viewing habits. 
+
+Outside work, Melissa volunteers with BridgeTroll, a non-profit that hosts free workshops to teach people from underrepresented backgrounds how to code. 
+
+Melissa graduated from UC Berkeley with a bachelors in Cognitive Science.  
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Michael Beadle</h3>
+        <p>
+            Michael Beadle is a Director of Public Relations at Ubisoft. He has been with Ubisoft for more than 16 years and has help launch a number of Ubisoft’s biggest franchises, including Assassin’s Creed, Just Dance and Tom Clancy’s The Division. Beadle currently oversees a team that handles Corporate Communications, Product Launches and Ubisoft Film & Television. Outside of work, Beadle enjoys following Bay Area sports, video games, dancing, playing guitar & drums and singing along to musicals.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Mikaela Reyes</h3>
+        <p>
+            I’m currently a PM at LinkedIn, & was previously at Kumu & Ripcord through the KPCB Product Fellowship. On the side, I’m working on a virtual startup incubator for the Philippines called Cognity Labs.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Noelle Saldana</h3>
+        <p>
+            Noelle is currently the Director of Product Analytics and Data Science at Heroku (Salesforce), where she is driving how Heroku captures, analyzes, and leverages data. She was previously a leader for Pivotal’s Data Science team, where she worked with numerous enterprise and startup companies planning and executing their analytics initiatives. 
+
+She is passionate about the power of Math and making it more accessible; she enjoys collaborating with other disciplines, doing pro bono work through DataKind, and doing her part to encourage students in underrepresented groups to pursue STEM careers. 
+
+Noelle holds degrees in Mathematics and Anthropology. 
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Paul Villacarlos</h3>
+        <p>
+            Lucky to be a part of Workday, a company founded on a disruptive idea of putting people at the center of enterprise software. 
+
+I lead (or stay out of the way) of the team responsible for the  deployment, maintenance, and monitoring of the Workday Service.  The team spans 3 regions, Auckland New Zealand, Dublin Ireland, and Pleasanton California. Every system is a comprised of many pieces and my team needs to make sure that each puzzle piece fits so that the picture can be seen in its entirely by all our users.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Rajiv Paul Lorica Ayyangar</h3>
+        <p>
+            Rajiv is the founder of Tandem (tandem.chat), a virtual office for remote teams, backed by Y Combinator and Andreessen-Horowitz. Previously he was a data scientist at Yahoo and a program manager at Fairchild Semiconductor. Rajiv did his undergraduate studies at Princeton in Biochemical Engineering, where he was a Banatao Scholar. 
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Regina Abrogar Finuliar</h3>
+        <p>
+            Regina Finuliar, PHR is a HR Business Partner at Agenus in Berkeley and has experience with US and Global organizations in various industries including biotech, tech, and entertainment.  She enjoys collaborating with team members and is passionate about engaging employees to build their talent and skillsets that align with the company’s mission.
+
+At Cal Poly Pomona, she studied Business Administration and was an active member of Pi Sigma Epsilon, a co-ed business fraternity. She is currently pursuing her Executive MBA at St. Mary’s College. As an Advisor, and previous President of Your Filipino Professionals Association, and Founder of the YFPA Scholarship Program, she continues to support the core values to Connect, Educate, and Serve with the Fil-Am professional community. She is also a NCHRA member, and enjoys networking, travel, yoga, karaoke, and concerts. 
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Rhett V Pascual</h3>
+        <p>
+            Rhett Valino Pascual received his BA Neurobiology and PhD from the University of California at Berkeley.  After 18 years in the pharmaceutical Quality field, he co-founded Calidad AI, a software company that serves the pharmaceutic al Quality Systems.  
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Rosanne Borja</h3>
+        <p>
+            Rosanne's love of computers started as a middle-schooler building websites and storefronts on Geocities and Neopets. Fast forward a few life stages, a degree in Computer Science/Bioinformatics at the University of Waterloo, and a stint at Pivotal Labs Toronto building Android apps, and now life has come back full circle: Rosanne is back developing web frontends, but this time as a software engineer for Google (formerly with Google Analytics; presently at Google Photos). Outside of work, Rosanne loves baking, traveling, and learning new languages. 
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Ryan Garaygay</h3>
+        <p>
+            VP of Engineering @AgilOne, a SF Bay Area based leading Customer Data Platform used by companies like Lululemon, Hugo Boss etc. My team is responsible for AgilOne's big data technology stack. Also a mentor @Plato, a company dedicated to helping engineering and product leaders in leadership and building better teams. I was born, raised and studied Electronics Engineering in the Philippines. I enjoy spending time with family, finance and seemingly random things.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Sabrina Atienza</h3>
+        <p>
+            Sabrina is excited about cutting-edge transformative technologies like Artificial Intelligence, Speech Recognition, and Recommendation Systems to solve massive real-world problems. She trained in Computer Science and Physics at UC Berkeley (2013). Prior to Qurious, Sabrina was a software engineer at Tealeaf (acquired by IBM for $50M) and software consultant for various tech startups. At Qurious, Sabrina raised millions in venture funding and built an amazing team that developed real-time conversational A.I. Now at Valued, Sabrina works with high-growth tech companies to build talented, diverse teams.
+
+Her favorite reads are ""The Power and the Glory"" by Graham Greene and ""The Way of Zen"" by Alan Watts. In her spare time, she's probably binge watching Netflix, 90 Day Fiance, running, hiking, or reading.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Stefanie Jacinto Deo</h3>
+        <p>
+            Senior Data Analyst
+            "Self-doubt means you’re not delusional. It means you have high standards. Most of all, it means you’re human. Use it to fuel your fire."
+
+        </p>
+      </div>
+    </div>
+
+    <div class="speaker-container">
+      <div class="speaker-description">
+        <h3>Tim Castillo</h3>
+        <p>
+            Tim is a Bay Area native who's life has been heavily impacted by the stimuli of his communities and those around him. Born and raised in San Jose, Tim received his BS in Computer Science from the University of San Francisco in 2017. He currently works at Roche, where he builds data-driven software that supports oncologists by helping them make empowered decisions and treatment plans for their cancer patients.
+        </p>
+      </div>
+    </div>
+
+</div>
+
+
+        <!-- Footer -->
+        <footer>
+	        <div class="container">
+	        	<div class="row">
+		        	<div class="col-sm-12">
+		        		<div class="scroll-to-top">
+		        			<a href="#"><i class="fa fa-chevron-up"></i></a>
+		        		</div>
+		        	</div>
+		        </div>
+	            <div class="row">
+                    <div class="col-sm-12 footer-copyright">
+                    	&copy; FASTER 2018
+                    </div>
+	            </div>
+	        </div>
+        </footer>
+
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/jquery.superslides.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/masonry.pkgd.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+<script>
+$(document).ready(function(){
+  $('.dropdown a.drop').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+
+
+    </body>
+
+</html>
