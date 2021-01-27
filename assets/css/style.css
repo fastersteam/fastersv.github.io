@@ -1167,3 +1167,20 @@ footer .scroll-to-top a:hover, footer .scroll-to-top a:focus, footer .scroll-to-
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* ------------------------------
+ * specific styling by element
+ */
+/* method taken from https://css-tricks.com/the-checkbox-hack/ */
+#joinslack-toggle {
+    visibility: hidden;
+}
+
+#joinslack-label {
+    display: inline;
+    font-weight: 300;
+}
+
+#joinslack-status {
+    display: none;
+}
